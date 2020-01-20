@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+#css-zen-garden {
+	font-family: IM Fell Great Primer SC, Sans Sarif;
+	font-size: 18px;
+}
+body{
+	background-color: #815c44;
+}
+header > section{
+  height: 150px;
+  display: flex;
+  padding: 10px 20px 10px 20px;
+  align-items: center;
+
+}
+
+/*section > header{
+	background-image: url(../img/iconUni.png);
+	background-repeat: no-repeat;
+	width: 150px;
+	height: auto;
+}*/
+.intro{
+	min-height: 250px;
+  display: flex;
+  background-image: url(../img/hygge1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  background-attachment: fixed;
+  color: black;
+
+}
+.summary a{
+	color: #E83BE9;
+}
+.summary a:hover{
+	background: #FFFE42;
+}
+
+#zen-intro [role=banner]{
+	padding:30px;
+	color: #FB7AFF;
+}
+[role=article]{
+	color: #6CF16B;
+	background-image: url(../img/hygge3.jpeg);
+}
+.main-supporting a{
+	color: #FFFE42;
+}
+.main-supporting a:hover{
+	color: #E83BE9;
+	background:#FFFE42;
+}
+footer{
+	text-align: center;
+}
+footer a:hover{
+	background:#FFFE42;
+}
+aside{
+	background: url('../img/hygge2.jpg') no-repeat 0 0;
+	padding: 100px;
+	max-width: 1000px;
+  width: 100%;
+  display: flex;
+  margin: 0 auto 25px;
+  justify-content: space-between;
+}
+aside h3{
+	color: #1FF6EE;
+}
+.select .archives .resources{
+margin-bottom: 10px;
+  color: #adadad;
+}
+.wrapper ul li a{
+	display: block;
+  margin-bottom: -3px;
+  color: #fff;
+}
+.wrapper ul li a:hover{
+	text-decoration: underline;
+	background: #3b5998; 
+}
